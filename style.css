@@ -60,13 +60,28 @@ section.menu{
     display: flex;
     justify-content: space-between;
     font-size: 16px;
-    width: 850px;git 
+    width: 850px;
+}
+section.menu nav ul.menu_list li:nth-child(6) {
+    color:black;
+    font-weight: 800;
 }
 
 /*Sección Title*/
 
 section.title{
-
+    margin: 0 153px;
+    width: 80%;
+    color: var(--color-titulos);
+}
+section.title div.title_div {
+    justify-content: space-around;
+    align-content: flex-start;
+    display: flex;
+    flex-direction: row-reverse;
+}
+section.title div.title_container h2 {
+    
 }
 
 /*Sección About*/
