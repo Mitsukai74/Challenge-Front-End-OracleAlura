@@ -48,7 +48,7 @@ section.menu{
     margin: 0px 160px;  
 }
 
-.menu_header {
+header.menu__header {
     display: flex;
     justify-content: space-between;
     font-size: 20px;
@@ -56,7 +56,7 @@ section.menu{
     color: var(--color-titulos);
 }
 
-.menu_list {
+section.menu nav ul.menu__list {
     display: flex;
     justify-content: space-between;
     font-size: 16px;
@@ -74,14 +74,37 @@ section.title{
     width: 80%;
     color: var(--color-titulos);
 }
-section.title div.title_div {
+section.title div.title__div {
     justify-content: space-around;
     align-content: flex-start;
     display: flex;
     flex-direction: row-reverse;
 }
-section.title div.title_container h2 {
-    
+section.title div.title__container h2 {
+    font-size:56px;
+    font-weight: 700;
+    line-height: 61px;    
+}
+
+section.title img.title__profile {
+    width: 368px;    
+}
+section.title div.title__div div.title__container h3 {
+    font-size:17px;
+    line-height: 23px;
+    width: 600px;
+    margin-bottom: 30px;    
+}
+section.title div.title__div div.title__container ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    width: 500px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
 }
 
 /*Sección About*/
