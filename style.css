@@ -25,18 +25,6 @@ a{
     color: var(--cor-de-link);
 }
 
-/*En este desafío nosostros gustaríamos que ustedes intentaran utilizar la metodología BEM. 
-
-Lo que es el BEM?
-
-BEM (Bloque, Elemento, Modificador) es un enfoque basado en componentes para el 
-desarrollo web. La idea detrás de esto es dividir la interfaz de usuario en bloques
-independientes. Esto hace que el desarrollo de la interfaz sea fácil y rápido, incluso
-con una interfaz de usuario compleja, y permite la reutilización del código existente sin copiar y pegar.
-
-Enlace de la documentación oficial!
-https://en.bem.info/methodology/quick-start/*/
-
 /*Sección Menu*/
 
 section.menu{
@@ -62,6 +50,7 @@ section.menu nav ul.menu__list {
     font-size: 16px;
     width: 850px;
 }
+
 section.menu nav ul.menu_list li:nth-child(6) {
     color:black;
     font-weight: 800;
@@ -106,23 +95,106 @@ section.title div.title__div div.title__container ul {
     font-weight: 400;
     line-height: 16px;
 }
-
 /*Sección About*/
 
 section.about{
-
+    padding: 62px 153px;
+    background-color: var(--color-fondoazul);
+}
+section.about div.about__container {
+    width: 700px;
+}
+section.about div.about__title {
+    font-size: 32px;
+}
+section.about div.about__container p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 10px;
+}
+/*sección de skills*/
+section.skills {
+    margin: 64px 100px;
+}
+section.skills h3.skills__title {
+    font-size: 32px;
+    text-align: center;
+}
+section.skills div.skills__line {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;    
+}
+section.skills div.skills__box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 16px;
+    background-color: var(--color-cajas);
+    margin: 22px 15px 22px 15px;
+    width: 150px;
+    height: 160px;
+}
+section.skills div.skills__box ul {
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--color-titulos);    
 }
 
 /*Sección Hobbies*/
 
 section.hobbies{
-    
+    margin: 64px 100px;    
+}
+section.hobbies h3.hobbies__title {
+    font-size: 32px;
+    text-align: center;
+}
+section.hobbies div.hobbies__line {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;    
+}
+section.hobbies div.hobbies__box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 16px;
+    background-color: var(--color-cajas);
+    margin: 22px 15px 22px 15px;
+    width: 150px;
+    height: 160px;
+}
+section.hobbies div.hobbies__box ul {
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--color-titulos);    
 }
 
 /* Experiencia Académica*/
 
 section.academic{
-
+    padding: 64px 0;
+    background-color: var(--color-fondoazul);
+}
+section.academic h2.academic__title {
+    font-size: 32px;
+    text-align: center;
+}
+section.academic div.academic__courses {
+    display: flex;
+    justify-content: center;
+    
 }
 
 /* experiencia*/
