@@ -7,7 +7,8 @@
    --color-fondoazul:#EAF2FD;
    --color-cajas:#fbfbfb;
    --azul-botones:#2A7AE4;
-   --color-experiencia:#CEFAEE
+   --color-experiencia:#CEFAEE;
+   --color-contacto:#F9F99C;
 }
 
 body {
@@ -238,8 +239,13 @@ section.experience div.experiencie__box div.experience__info-container {
 
 /*Contacto*/
 
-section.formcontato{
-
+section.formcontato {
+    padding: 64px 0;
+    background-color: var(--color-contacto);
+}
+section.formcontato div.formcontato__contacto {
+    
+    justify-content: center;
 }
 
 /*footeer*/
