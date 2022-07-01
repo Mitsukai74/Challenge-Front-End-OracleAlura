@@ -7,6 +7,7 @@
    --color-fondoazul:#EAF2FD;
    --color-cajas:#fbfbfb;
    --azul-botones:#2A7AE4;
+   --color-experiencia:#CEFAEE
 }
 
 body {
@@ -109,8 +110,8 @@ section.about div.about__title {
 }
 section.about div.about__container p {
     font-weight: 400;
-    font-size: 14px;
-    line-height: 10px;
+    font-size: 18px;
+    line-height: 15px;
 }
 /*sección de skills*/
 section.skills {
@@ -193,15 +194,47 @@ section.academic h2.academic__title {
 }
 section.academic div.academic__courses {
     display: flex;
-    justify-content: center;
+    justify-content: center;    
+}
+section.academic div.academic__courses__box {
+    width: 26.6rem;
+    margin: 0 1rem;
+}
+section.academic div.academic__courses__box ul {
+    margin: 32px;
+    padding: 0;
+}
+section.academic div.academic__courses__box ul li {
+    padding: 0;
+    margin: 32px;    
+}
+section.academic div.academic__courses__box ul li.academic__courses__item__img {
+    background-color: var(--color-cajas);
+    padding: 8%;
+}
+section.academic div.academic__courses__box ul li.academic__courses__item__title {
     
 }
-
 /* experiencia*/
 
 section.experience{
-
+    padding: 64px 0;
+    background-color: var(--color-experiencia);
 }
+section.experience h2.experience__section__title {
+    font-size: 32px;
+    text-align: center;
+}
+section.experience div.experiencie__box {
+    display: flex;
+    justify-content: center;    
+}
+section.experience div.experiencie__box div.experience__info-container {
+    width: 26.6rem;
+    margin: 0 1rem;    
+}
+
+
 
 /*Contacto*/
 
