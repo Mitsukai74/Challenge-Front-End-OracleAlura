@@ -236,11 +236,17 @@ section.experience div.experiencie__box div.experience__info-container {
 section.formcontato {
     padding: 64px 0;
     background-color: var(--color-contacto);
-    
+} 
+
+.formcontato__form {   
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    flex-direction: column;   
+
 }
-section.formcontato div.formcontato__contacto {    
-    justify-content: center;
-    
+.formcontato__input {
+    margin: 5px 5px;
 }
 
 /*footeer*/
