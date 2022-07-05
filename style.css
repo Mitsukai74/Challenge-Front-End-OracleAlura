@@ -251,8 +251,17 @@ section.formcontato {
 
 /*footeer*/
 
-section.footer{
-   
+section.footer{ 
+    display: flex;
+    padding: 15px 0;
+    background-color: #F5F5F5;
+    
+    justify-content: flex-start;    
+}
+section.footer div.footer__rodape {    
+    font-size: 15px;
+    font-style: italic;
+    
 }
 
 /* Vamos a desafiarnos trabajando con responsividad?
